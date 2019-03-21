@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+body {
+  background-color: lightgray;
+  font-size: 18px;
+}
+
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+/*
+Is the tah h1 and h3 for presentation site
+*/
+.presentation{
+  font-weight: bold;
+  color: black;
+}
+
+.sub_presentation{
+  font-style: italic;
+  color: gray;
+}
