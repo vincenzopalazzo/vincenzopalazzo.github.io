@@ -1,0 +1,27 @@
+#my-avatar{
+    height: 10em;
+    width: 10em;
+
+    position: absolute;
+    left: 0.5em;
+    top: 5em;
+
+    border: 0.5em solid;
+    border-color: white;
+    border-radius: 50%;
+}
+
+#my-avatar:hover{
+    height: 12em;
+    width: 12em;
+
+    position: absolute;
+    left: 0.5em;
+    top: 5em;
+
+    border: 0.5em solid;
+    border-color: rgb(26, 109, 202);
+    border-radius: 50%;
+
+    cursor: grabbing;
+}

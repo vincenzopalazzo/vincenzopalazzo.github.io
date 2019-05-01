@@ -1,6 +1,8 @@
 import 'package:angular/angular.dart';
 import 'package:vincenzopalazzo/src/components/navigator/navigator_component.dart';
 import 'package:vincenzopalazzo/src/components/corner/corner.dart';
+import 'package:vincenzopalazzo/src/components/myavatar/my_avatar.dart';
+import 'package:vincenzopalazzo/src/components/alterwork/alter_work.dart';
 
 @Component(
   selector: 'my-app',
@@ -8,10 +10,10 @@ import 'package:vincenzopalazzo/src/components/corner/corner.dart';
   template: '''
     <vp-menu></vp-menu>
     <vp-corner></vp-corner>
-    <h1 class="presentation"> Hello this is home page the my personal site </h1>
-    <h3 class="sub_presentation">This site is write with {{language}}</h3> 
+    <my-avatar></my-avatar>
+    <alter-work></alter-work>
     ''',
-  directives: [NavigatorBar, Corner]
+  directives: [NavigatorBar, Corner, MyAvatar, AlterWork]
 )
 class AppComponent {
   var language = 'AngularDart';
