@@ -200,8 +200,10 @@
   .d2-topic{ font-size:12.5px; white-space:pre; }
   .d2-msg{ color:#c9d1d9; text-wrap:pretty; }
   .d2-cursorline{ margin-top:6px; }
-  .d2-cursor{ display:inline-block; width:9px; height:16px; background:#6fcf7f;
-       animation:d2blink 1.1s steps(2) infinite; vertical-align:middle; }
+  .d2-cursor{ display:inline-block; width:9px; height:16px; background:#6fcf7f; vertical-align:middle; }
+  @media (prefers-reduced-motion: no-preference) {
+    .d2-cursor{ animation:d2blink 1.1s steps(2) infinite; }
+  }
   @keyframes d2blink{ 0%,50%{opacity:1;} 50.01%,100%{opacity:0;} }
   .d2-grid{ display:grid; grid-template-columns:1.4fr 1fr; gap:18px; margin-top:18px; }
   .d2-pane{ border:1px solid #20242c; border-radius:10px; padding:18px 20px; background:#0a0b0e; margin-top:18px; }

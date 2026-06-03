@@ -105,6 +105,5 @@ export const VP_DATA = {
     'Now hacking on Rust for Linux.'
   ],
   links, projects, publications, theses, talks, log, tagLabels,
-  gpg: 'DDE3 16C1 0965 F23D CCDD 0420 8B6D C2B8 70B8 0D5F',
   node: 'bruce.lnmetrics.info'
 };
